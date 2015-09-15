@@ -19,7 +19,6 @@ module.exports = {
 
   models: {
     connection: 'localMongodbServer'
-    // connection: 'mongolabServer'
   }
 
 };

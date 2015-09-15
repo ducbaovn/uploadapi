@@ -28,7 +28,7 @@ module.exports =
         ], (err, result)->
           if err
             return res.badRequest err
-          url = 'mongodb://localhost:27017/admin'
+          url = 'mongodb://localhost:27017/uploadapi'
           MongoClient.connect url, (err, db)->
             if err
               return res.badRequest err

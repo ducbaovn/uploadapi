@@ -60,19 +60,11 @@ module.exports.connections = {
     adapter: 'sails-mongo',
     host: 'localhost',
     port: 27017,
-    database: 'admin'
+    database: 'uploadapi'
     // user: 'username',
     // password: 'password',
     // database: 'your_mongo_db_name_here'
   },
-  // mongolabServer: {
-  //   adapter: 'sails-mongo',
-  //   host: 'ds051868.mongolab.com',
-  //   port: 51868,
-  //   user: 'heroku_x2hccl3l',
-  //   password: 'dtpn9g688eibhvkp3lb2ct210u',
-  //   database: 'heroku_x2hccl3l'
-  // },
 
   /***************************************************************************
   *                                                                          *
